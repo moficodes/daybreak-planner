@@ -1,0 +1,6 @@
+{
+  "name": "DayBreak Planner",
+  "description": "A minimalist daily planner that resets every midnight, helping you focus on today's goals.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}

@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+@import "tailwindcss";
+
+@variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  --color-brand-accent: #D4FF3F;
+  --color-brand-bg: #0A0A0A;
+  --color-brand-text: #F5F5F5;
+}
+
+@layer base {
+  body {
+    @apply font-sans antialiased bg-white text-zinc-900 transition-colors duration-300;
+  }
+}
+
+@layer components {
+  .theme-card {
+    @apply bg-zinc-100/50 dark:bg-white/5 border border-zinc-200 dark:border-white/10 rounded-3xl backdrop-blur-sm;
+  }
+
+  .accent-glow {
+    @apply shadow-[0_0_20px_rgba(212,255,63,0.15)];
+  }
+}
