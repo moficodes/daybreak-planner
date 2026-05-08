@@ -1,4 +1,7 @@
 # Daybreak Planner
+## Try it out!
+Live demo is available here: [https://daybreak-planner-598464211339.us-west2.run.app](https://daybreak-planner-598464211339.us-west2.run.app)
+
 
 The "Daily Purge" planner: A minimalist task manager that forces intentionality by wiping your slate clean every 24 hours.
 
